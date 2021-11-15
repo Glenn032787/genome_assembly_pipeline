@@ -11,7 +11,7 @@ The final output assembly will be in a file called ${NAME}.FINAL_ASSEMBLY.fa
 
 Both scripts run the same pipeline. The simple_assembly_pipeline.sh is just each command run sequentially. The assembly_pipeline includes options from getopts, skips steps that are already performed on previous runs and outputs a simple log file. Note that the paths to reference genome, singularity containers and busco database is hard coded. 
 
-        USAGE: script.sh [OPTIONS] output_name read_file [ read_file... ]
+        USAGE: assembly_pipeline.sh [OPTIONS] output_name read_file [ read_file... ]
         
          Options
          -r 	Number of times to run racon (Default: 1)
