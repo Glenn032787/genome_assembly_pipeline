@@ -1,7 +1,5 @@
 # Genome Aseembly Pipeline
-A simple genome assembly pipeline written during rotations in the Jones Lab at UBC.
-
-Pipeline was used to assembly reads from q20+ nanopore dataset into a genome. 
+A simple genome assembly pipeline written during rotations in the Jones Lab at UBC. Pipeline was used to assembly reads from q20+ nanopore dataset into a genome. 
 
 The general pipeline consist of this:
 Flye --> Racon --> Medaka --> LongStitch
