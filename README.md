@@ -14,6 +14,6 @@ Both scripts run the same pipeline. The simple_assembly_pipeline.sh is just each
         USAGE: assembly_pipeline.sh [OPTIONS] output_name read_file [ read_file... ]
         
          Options
-         -r 	Number of times to run racon (Default: 1)
-         -t 	Threads (Default: 72)
-         -m	 Model used for medaka (Default: r104_e81_sup_g5015)
+         -r     Number of times to run racon (Default: 1)
+         -t     Threads (Default: 72)
+         -m     Model used for medaka (Default: r104_e81_sup_g5015)
